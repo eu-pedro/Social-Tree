@@ -1,0 +1,95 @@
+
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+:root{
+  --cor0: #FAF7FD;
+  --cor1: #BB99DD;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shadows+Into+Light&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+  background-color: var(--cor0);
+}
+
+/* .foto{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 1000px;
+  margin-top: 30px;
+} */
+/*FOTO DE PERFIL*/
+.circulo{
+  
+  width: 300px;
+  height: 150px;
+  margin-top: 50px;
+  
+}
+p{
+  color: var(--cor1);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-family: 'Bebas Neue', cursive;
+}
+h3{
+  color: var(--cor1);
+  text-align: center;
+  font-weight: bold;
+  padding: 7px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*LINK'S*/
+.link1{
+  border: 3px solid var(--cor1);
+  width: 370px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  
+}
+.link2{
+  border: 3px solid var(--cor1);
+  width: 370px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.link3{
+  border: 3px solid var(--cor1);
+  width: 370px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.link4{
+  border: 3px solid var(--cor1);
+  width: 370px;
+  height: 45px;
+  margin-bottom: 55px;
+  border-radius: 8px;
+  
+}
+
+/*ASSETS*/
+.assets{
+  width: 310px;
+  
+}
+.assets > img{
+  margin-right: 34px;
+  
+}
+/* IMAGEM DE PERFIL */  
+
+circle{
+  background-image: url('https://www.fatosdesconhecidos.com.br/wp-content/plugins/wp-user-avatars/wp-user-avatars/assets/images/mystery.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+}
