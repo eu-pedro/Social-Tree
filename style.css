@@ -12,16 +12,11 @@
 
 body{
   background-color: var(--cor0);
+  height: 1000px;
 }
 
-/* .foto{
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  border-radius: 1000px;
-  margin-top: 30px;
-} */
-/*FOTO DE PERFIL*/
+
+/*CONTORNO DO PERFIL*/
 .circulo{
   
   width: 300px;
@@ -78,18 +73,45 @@ h3{
 
 /*ASSETS*/
 .assets{
-  width: 310px;
+  width: 400px;
   
 }
-.assets > img{
-  margin-right: 34px;
-  
-}
-/* IMAGEM DE PERFIL */  
 
-circle{
-  background-image: url('https://www.fatosdesconhecidos.com.br/wp-content/plugins/wp-user-avatars/wp-user-avatars/assets/images/mystery.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-clip: border-box;
+
+/* ASSETS IMAGEM 1 */
+.img1{
+  margin-left: 60px;
+  margin-right: 35px;
 }
+/* ASSETS IMAGEM 2 */
+.img2{
+  margin-right: 35px;
+}
+
+/* ASSETS IMAGEM 3 */
+.img3{
+  margin-right: 35px;
+}
+
+/* ASSETS IMAGEM 4 */
+.img4{
+  margin-right: 35px;
+}
+
+/* ASSETS IMAGEM 5 */
+.img5{
+  margin-right: 35px;
+}
+
+
+
+
+
+
+/* ANCORAGEM*/
+a{
+  text-decoration: none;
+}
+
+
+
